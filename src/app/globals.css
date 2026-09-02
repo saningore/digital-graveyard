@@ -9,3 +9,6 @@ button, input, textarea, select { font: inherit; }
 .grave-card { transition: transform .2s ease, box-shadow .2s ease; }
 .grave-card:hover { transform: translateY(-4px); box-shadow: 7px 7px 0 var(--ink); }
 .tag { border: 1px solid #c9c9bd; border-radius: 999px; padding: .3rem .65rem; font-size: .75rem; font-weight: 600; }
+.button-primary { background: var(--ink); color: var(--lime) !important; }
+.button-primary:hover { background: #30352a; color: #fff !important; }
+.button-primary:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }

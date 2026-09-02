@@ -22,6 +22,6 @@ export function GraveForm() {
     <div><label htmlFor="lessons_learned" className="font-bold">What did you learn?</label><textarea id="lessons_learned" name="lessons_learned" className={input} rows={3} placeholder="The lesson worth preserving." /></div>
     <div><label htmlFor="screenshot" className="font-bold">Screenshot <span className="font-normal text-[#65675f]">optional, max 5 MB</span></label><input id="screenshot" name="screenshot" type="file" accept="image/*" className="mt-2 block w-full text-sm" /></div>
     <label className="flex gap-3 border border-[#11130f] bg-[#d6f56c] p-4"><input name="revivable" type="checkbox" className="mt-1 size-4" /><span><strong>Open to revival</strong><br /><span className="text-sm">Another developer is welcome to pick up this work.</span></span></label>
-    <button disabled={pending} className="w-full bg-[#11130f] px-5 py-4 font-bold text-[#d6f56c] disabled:opacity-60">{pending ? "Burying project…" : "Create this grave"}</button>
+    <button disabled={pending} className="button-primary w-full px-5 py-4 font-bold disabled:opacity-60">{pending ? "Burying project…" : "Create this grave"}</button>
   </form>;
 }

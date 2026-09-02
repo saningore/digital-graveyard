@@ -5,7 +5,7 @@ export function Header() {
     <nav className="mx-auto flex max-w-6xl items-center justify-between px-5 py-5">
       <Link href="/" className="text-xl font-black tracking-tight">DIGITAL <span className="text-[#73815c]">GRAVEYARD</span></Link>
       <div className="flex items-center gap-4 text-sm font-bold">
-        <Link href="/graves/new" className="rounded-full bg-[#11130f] px-4 py-2 text-[#d6f56c]">Bury a project +</Link>
+        <Link href="/graves/new" className="button-primary rounded-full px-4 py-2">Bury a project +</Link>
       </div>
     </nav>
   </header>;
